@@ -1,0 +1,53 @@
+.keypad-container {
+  display: flex;
+  flex-direction: column;
+  width: 650px;
+  gap: 5px;
+}
+
+.keypad-rows {
+  display: flex;
+  flex: 1 1 auto;
+  gap: 5px;
+}
+
+.keypad-elements {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 30px;
+  border: 2px solid green;
+  font-size: 32px;
+}
+
+.result-display-container {
+  height: 200px;
+  width: 646px;
+  flex: 1 1 auto;
+  border: 2px solid green;
+  margin-bottom: 5px;
+}
+
+.container-all {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 100px;
+}
+
+.container-all-child {
+  border: 2px solid red;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+}
+body{
+  margin:0px;
+  background-color: #000000;
+  color:#ffffff;
+}
